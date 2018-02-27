@@ -37,7 +37,15 @@ function removeLastKitten(){
   return newKittens
 }
 
+function removeFirstKitten(){
+  var newKittens = kittens.slice(1)
+  return newKittens
+}
+
 console.log("HERE IS THE LIST ",kittens)
 console.log(removeLastKitten())
+console.log(removeFirstKitten())
+
+
 
 
